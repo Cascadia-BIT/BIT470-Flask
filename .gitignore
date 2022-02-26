@@ -16,6 +16,7 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+bin/
 .eggs/
 lib/
 lib64/
@@ -130,21 +131,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# PyCharm default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-
-# Exclude the project's bin directory (created as part of virtual env)
-/BIT470-Flask/bin/
-
-# Exclude the project's database file
-/database/*.db
-
-# Exclude the virtual environment added binaries
-/bin/
